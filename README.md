@@ -51,6 +51,7 @@ Initially I ran into some problem regarding encoding of the file which I set as 
                        print(f)
       ```
       ![encoding](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/16.png?raw=true)
+
 Here in the output we found the encoding of the file and now we have to set the encoding as WIN1252 and import the file.
 
 4. **Average Out of School Rate (OOSR) for primary age by Gender**
