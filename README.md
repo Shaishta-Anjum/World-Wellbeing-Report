@@ -131,7 +131,7 @@ Here in the output we found the encoding of the file and now we have to set the 
      ```
     ![lowpe](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/10.png?raw=true)
 
-5. **Bottom 5 Pizzas by Total Quantity**
+5. **Ratio of Tertiary Enrollment to Primary Enrollment**
      ```sql
      SELECT
       Country_Area,
