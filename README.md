@@ -44,7 +44,7 @@ The World Wellbeing Report is a comprehensive analysis of global educational dat
       );
       ```
       
-3. **Import Global_Education csv file in the table**
+3. **Import Global_Education csv file in the table**:
 Initially I ran into some problem regarding encoding of the file which I set as UTF8 and to find the correct encoding, I used a simple python code.
       ```python
       with open('Global_Education.csv') as f:
@@ -54,7 +54,8 @@ Initially I ran into some problem regarding encoding of the file which I set as 
 
 Here in the output we found the encoding of the file and now we have to set the encoding as WIN1252 and import the file.
 
-4. **Average Out of School Rate (OOSR) for primary age by Gender**
+
+5. **Average Out of School Rate (OOSR) for primary age by Gender**
       ```sql
       SELECT
       AVG(OOSR_Primary_Age_Male) AS avg_oosr_male,
