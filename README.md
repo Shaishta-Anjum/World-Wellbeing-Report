@@ -172,18 +172,18 @@ Here in the output we found the encoding of the file and now we have to set the 
 
 ### Elements of the Dashboard
 
-**Heatmap for Birth Rate across countries**
+**Heatmap depicting Birth Rate across countries**
 
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/21.png?raw=true)
 
-**Line Chart to showcase Total Enrollment and Total Completion Rate across countries**
+**Line Chart showcasing Total Enrollment and Total Completion Rate across countries**
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/22.png?raw=true)
 
 **Top 5 Countries with Highest Unemployment Rate**
 
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/24.png?raw=true)
 
-**Clustered Bar Chart to Represent OOSR of Female and Male**
+**Clustered Bar Chart representing OOSR of Female and Male**
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/23.png?raw=true)
 
 **Youth Literacy Rate across countries**
