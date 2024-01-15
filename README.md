@@ -139,14 +139,14 @@ Here in the output we found the encoding of the file and now we have to set the 
  11. **Countries with Low Primary Enrollment**
      ```sql
      SELECT
-    Country_Area
-    FROM Global_Education
-    WHERE Gross_Primary_Education_Enrollment < (SELECT AVG(Gross_Primary_Education_Enrollment) FROM Global_Education)
-    ORDER BY Gross_Primary_Education_Enrollment limit 10;
-     ```
-    ![lowpe](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/10.png?raw=true)
+     Country_Area
+     FROM Global_Education
+     WHERE Gross_Primary_Education_Enrollment < (SELECT AVG(Gross_Primary_Education_Enrollment) FROM Global_Education)
+     ORDER BY Gross_Primary_Education_Enrollment limit 10;
+     ```  
+![lowpe](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/10.png?raw=true)
 
-12. **Ratio of Tertiary Enrollment to Primary Enrollment**
+13. **Ratio of Tertiary Enrollment to Primary Enrollment**
      ```sql
      SELECT
       Country_Area,
@@ -157,7 +157,7 @@ Here in the output we found the encoding of the file and now we have to set the 
     ![ratio](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/13.png?raw=true)
     ![ratio](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/12.png?raw=true)
 
-13. **Total Enrollment**
+14. **Total Enrollment**
      ```sql
      SELECT
     Country_Area,
@@ -171,26 +171,30 @@ Here in the output we found the encoding of the file and now we have to set the 
 ![Report](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/18.png?raw=true)
 
 ### Elements of the Dashboard
+
 **Heatmap for Birth Rate across countries**
+
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/21.png?raw=true)
 
 **Line Chart to showcase Total Enrollment and Total Completion Rate across countries**
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/22.png?raw=true)
 
 **Top 5 Countries with Highest Unemployment Rate**
+
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/24.png?raw=true)
 
 **Clustered Bar Chart to Represent OOSR of Female and Male**
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/23.png?raw=true)
 
 **Youth Literacy Rate across countries**
+
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/25.png?raw=true)
 
 ## Insights
 - **Nigeria** has **Highest Birth Rate** across the world.
 - **South Sudan** has **Highest OOSR** among both male and female.
 - There are **22** Countries with **100% Female Literacy Rate in Youth**.
-- **South Africa, Lesotho** & **Saint Lucia** are the Top 3 COuntries with **Highest Unemployment Rate**.
+- **South Africa, Lesotho** & **Saint Lucia** are the Top 3 Countries with **Highest Unemployment Rate**.
  
 Feel free to navigate through the dashboard and uncover more valuable insights. Should you have any questions or suggestions, please don't hesitate to reach out. 
 Happy exploring!
