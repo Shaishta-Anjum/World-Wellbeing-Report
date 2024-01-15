@@ -1,12 +1,11 @@
 ![world](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/krzysztof-hepner-TH7TW20de9s-unsplash%20cropped.jpg?raw=true)
 # World Wellbeing Report
-The World Wellbeing Report is a comprehensive analysis of global educational data, derived from the Kaggle dataset "World Educational Data."
+The World Wellbeing Report is an in-depth analysis of global educational data, employing PostgreSQL for data management, SQL queries for insightful metrics, and a Power BI dashboard for visually presenting key findings on out-of-school rates, literacy, unemployment, and educational enrollment ratios across countries.
 
 **Data Source**: (https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data?resource=download)
 
 **Software Tools used**: Microsoft Excel, Microsoft Power BI, PostgreSQL-pgAdmin4
 
-### Step 1: Writing Queries in PostgreSQL
 1. **Create a Database**
 
 2. **Create Table Global_Education**
@@ -54,8 +53,25 @@ Initially I ran into some problem regarding encoding of the file which I set as 
 
 Here in the output we found the encoding of the file and now we have to set the encoding as WIN1252 and import the file.
 
+4. **Top 10 Countries with High Birth Rate**
+      ```sql
+      SELECT COUNTRY_AREA, BIRTH_RATE
+      FROM GLOBAL_EDUCATION
+      ORDER BY BIRTH_RATE DESC LIMIT 10;
+      ```
+      ![br](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/17.png?raw=true)
 
-5. **Average Out of School Rate (OOSR) for primary age by Gender**
+5.  **Countries with 100% Female Literacy Rate in Youth**
+      ```sql
+      SELECT COUNTRY_AREA, Youth_15_24_Literacy_Rate_Female
+      FROM GLOBAL_EDUCATION
+      WHERE Youth_15_24_Literacy_Rate_Female=100
+      ORDER BY Youth_15_24_Literacy_Rate_Female;
+      ```
+      ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/19.png?raw=true)
+      ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/20.png?raw=true)
+      
+6. **Average Out of School Rate (OOSR) for primary age by Gender**
       ```sql
       SELECT
       AVG(OOSR_Primary_Age_Male) AS avg_oosr_male,
@@ -65,7 +81,7 @@ Here in the output we found the encoding of the file and now we have to set the 
       ![Avg OOSR Primary](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/1.png?raw=true)
 
 
-6. **OOSR by Education Level**
+7. **OOSR by Education Level**
       ```sql
       SELECT
       'Pre-Primary' AS education_level,
@@ -89,7 +105,7 @@ Here in the output we found the encoding of the file and now we have to set the 
       ```
       ![OOSR](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/6.png?raw=true)
 
-7. **Gender Disparities in Literacy Rate in Youth**
+8. **Gender Disparities in Literacy Rate in Youth**
      ```sql
      SELECT
     AVG(Youth_15_24_Literacy_Rate_Male) AS avg_literacy_rate_male,
@@ -98,7 +114,7 @@ Here in the output we found the encoding of the file and now we have to set the 
      ```
     ![lr](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/7.png?raw=true)
 
-8. **Top 10 Countries with Highest Unemployment Rate**
+9. **Top 10 Countries with Highest Unemployment Rate**
      ```sql
      SELECT
     Country_Area,
@@ -109,7 +125,7 @@ Here in the output we found the encoding of the file and now we have to set the 
      ```
      ![ur10](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/8.png?raw=true)
 
-9. **Countries with best Employment Rate**
+10. **Countries with best Employment Rate**
      ```sql
      SELECT
     Country_Area,
@@ -120,8 +136,7 @@ Here in the output we found the encoding of the file and now we have to set the 
      ```
     ![er10](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/9.png?raw=true)
 
- 
-4. **Countries with Low Primary Enrollment**
+ 11. **Countries with Low Primary Enrollment**
      ```sql
      SELECT
     Country_Area
@@ -131,7 +146,7 @@ Here in the output we found the encoding of the file and now we have to set the 
      ```
     ![lowpe](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/10.png?raw=true)
 
-5. **Ratio of Tertiary Enrollment to Primary Enrollment**
+12. **Ratio of Tertiary Enrollment to Primary Enrollment**
      ```sql
      SELECT
       Country_Area,
@@ -142,7 +157,7 @@ Here in the output we found the encoding of the file and now we have to set the 
     ![ratio](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/13.png?raw=true)
     ![ratio](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/12.png?raw=true)
 
-7. **Total Enrollment**
+13. **Total Enrollment**
      ```sql
      SELECT
     Country_Area,
@@ -153,10 +168,29 @@ Here in the output we found the encoding of the file and now we have to set the 
     ![total enrollment](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/14.png?raw=true)
 
 ## Power BI Dashboard
-![Report](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/15.png?raw=true)
+![Report](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/18.png?raw=true)
+
+### Elements of the Dashboard
+**Heatmap for Birth Rate across countries**
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/21.png?raw=true)
+
+**Line Chart to showcase Total Enrollment and Total Completion Rate across countries**
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/22.png?raw=true)
+
+**Top 5 Countries with Highest Unemployment Rate**
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/24.png?raw=true)
+
+**Clustered Bar Chart to Represent OOSR of Female and Male**
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/23.png?raw=true)
+
+**Youth Literacy Rate across countries**
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/25.png?raw=true)
 
 ## Insights
-- 
+- **Nigeria** has **Highest Birth Rate** across the world.
+- **South Sudan** has **Highest OOSR** among both male and female.
+- There are **22** Countries with **100% Female Literacy Rate in Youth**.
+- **South Africa, Lesotho** & **Saint Lucia** are the Top 3 COuntries with **Highest Unemployment Rate**.
  
 Feel free to navigate through the dashboard and uncover more valuable insights. Should you have any questions or suggestions, please don't hesitate to reach out. 
 Happy exploring!
