@@ -6,11 +6,13 @@ The World Wellbeing Report is an in-depth analysis of global educational data, e
 One day, while reading an article on Data Analytics Portfolio at CareerFoundry by Will H., I stumbled upon Naledi Hollbruegge's impressive project on Girls' Rights and Wellbeing. Inspired by her work, I aimed to create a similar project but on a global scale, encompassing both genders.
 
 You can check out Naledi's project here: https://public.tableau.com/app/profile/equal.measures.2030/viz/20190820-DayoftheGirlanalysis-v1/DayoftheGirl
-...
+
+
 **Data Source**: (https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data?resource=download)
 
 **Software Tools used**: Microsoft Excel, Microsoft Power BI, PostgreSQL-pgAdmin4
-...
+
+
 1. **Create a Database**
 
 2. **Create Table Global_Education**
