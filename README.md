@@ -5,11 +5,11 @@ The World Wellbeing Report is an in-depth analysis of global educational data, e
 ## Inspiration Behind this project
 One day, while reading an article on Data Analytics Portfolio at CareerFoundry by Will H., I stumbled upon Naledi Hollbruegge's impressive project on Girls' Rights and Wellbeing. Inspired by her work, I aimed to create a similar project but on a global scale, encompassing both genders.
 
-You can check out **Naledi's project** here: https://public.tableau.com/app/profile/equal.measures.2030/viz/20190820-DayoftheGirlanalysis-v1/DayoftheGirl
+You can check out **Naledi's project** [here](https://public.tableau.com/app/profile/equal.measures.2030/viz/20190820-DayoftheGirlanalysis-v1/DayoftheGirl)
 
-You can check out **my dashboard** here: https://www.novypro.com/project/world-wellbeing-report
+And you can check out **my dashboard** [here](https://www.novypro.com/project/world-wellbeing-report)
 
-**Data Source**: (https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data?resource=download)
+**Data Source**: [World Education Data](https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data?resource=download)
 
 **Software Tools used**: Microsoft Excel, Microsoft Power BI, PostgreSQL-pgAdmin4
 
