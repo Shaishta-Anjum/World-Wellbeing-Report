@@ -177,11 +177,16 @@ Here in the output we found the encoding of the file and now we have to set the 
 
 ## Power BI Dashboard
 ### *New Dashboard*:
-![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20170329.png?raw=true)
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20190811.png?raw=true)
+
 ### *Old Dashboard*:
 ![Report](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/18.png?raw=true)
 
 ## Elements of the Dashboard
+
+**Cards to present Key Performance Indicators**
+
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20190837.png?raw=true)
 
 **Heatmap depicting Birth Rate across countries**
 
@@ -200,6 +205,10 @@ Here in the output we found the encoding of the file and now we have to set the 
 **Youth Literacy Rate across countries**
 
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20171725.png?raw=true)
+
+**Slicer to help filter out the data based on Country**
+
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20171758.png?raw=true)
 
 ## Insights
 - **Nigeria** has **Highest Birth Rate** across the world.
