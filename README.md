@@ -176,27 +176,30 @@ Here in the output we found the encoding of the file and now we have to set the 
     ![total enrollment](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/14.png?raw=true)
 
 ## Power BI Dashboard
+### *New Dashboard*:
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20170329.png?raw=true)
+### *Old Dashboard*:
 ![Report](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/18.png?raw=true)
 
-### Elements of the Dashboard
+## Elements of the Dashboard
 
 **Heatmap depicting Birth Rate across countries**
 
 ![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/21.png?raw=true)
 
 **Line Chart showcasing Total Enrollment and Total Completion Rate across countries**
-![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/22.png?raw=true)
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20171742.png?raw=true)
 
-**Top 5 Countries with Highest Unemployment Rate**
+**Top 10 Countries with Highest Unemployment Rate**
 
-![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/24.png?raw=true)
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20171714.png?raw=true)
 
-**Clustered Bar Chart representing OOSR of Female and Male**
-![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/23.png?raw=true)
+**Scatter Plot Chart representing Out of School Rate of Female and Male**
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20171733.png?raw=true)
 
 **Youth Literacy Rate across countries**
 
-![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/25.png?raw=true)
+![](https://github.com/Shaishta-Anjum/World-Wellbeing-Report/blob/main/images/Screenshot%202024-03-14%20171725.png?raw=true)
 
 ## Insights
 - **Nigeria** has **Highest Birth Rate** across the world.
