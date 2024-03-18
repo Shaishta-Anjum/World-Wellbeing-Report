@@ -7,8 +7,6 @@ One day, while reading an article on Data Analytics Portfolio at CareerFoundry b
 
 You can check out **Naledi's project** [here](https://public.tableau.com/app/profile/equal.measures.2030/viz/20190820-DayoftheGirlanalysis-v1/DayoftheGirl)
 
-And you can check out **my dashboard** [here](https://www.novypro.com/project/world-wellbeing-report)
-
 **Data Source**: [World Education Data](https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data?resource=download)
 
 **Software Tools used**: Microsoft Excel, Microsoft Power BI, PostgreSQL-pgAdmin4
